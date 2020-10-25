@@ -5,13 +5,13 @@
 
 contents = []
 while True:
-    text = input('Введите строку или ОТМЕНА для отмены: ')
+    text = input('Введите строку или ОТМЕНА для отмены')
     if text == 'ОТМЕНА':
         break
     else:
-        contents.append(text) 
-        
-for line in contents:
-    if 'Рисунок' in line:
-        new_line = line.replace('Рисунок', 'Фото')
-        print(new_line)
+        contents.append(text)
+
+for line in l:
+    for i in "()":
+        if i in line:
+        	print(line)
