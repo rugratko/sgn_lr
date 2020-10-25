@@ -13,6 +13,5 @@ while True:
         
 for line in contents:
     if 'Рисунок' in line:
-        new_line = line.replace('Рисунок', 'Фото')ы
+        new_line = line.replace('Рисунок', 'Фото')
         print(new_line)
-    
